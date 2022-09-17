@@ -1,0 +1,91 @@
+
+.container {
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    background-color: #333333;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu-list>li {
+    display: inline-block;
+    padding: 24px 40px;
+}
+
+.menu-list>li:hover {
+    background-color: #00a9ff;
+}
+
+.menu-list>li:hover .sub-menu {
+    display: block;
+}
+
+.menu_link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.plus-sign:after {
+    content: '+';
+    color: #FFFFFF;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 26px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 64px;
+    min-width: 270px;
+}
+
+.sub-menu>li {
+    background-color: #00a9ff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.sub-menu>li:hover .sub-sub-menu {
+    display: block;
+}
+
+.sub-menu-link {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.sub-plus-sign:after {
+    content: '+';
+    color: #FFFFFF;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.sub-sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 270px;
+    padding-right: 5px;
+}
+
+.sub-sub-menu>li {
+    background-color: #00a9ff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.sub-sub-menu-link {
+    color: #FFFFFF;
+    padding: 20px;
+    display: inline-block;
+}
+
+
